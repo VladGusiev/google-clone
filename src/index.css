@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&family=Open+Sans&display=swap');
 
+html {
+  color: white;
+}
+
 body {
   margin: 0;
   font-family: 'Open Sans', 'Montserrat', 'Lato', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',

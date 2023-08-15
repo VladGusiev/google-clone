@@ -10,7 +10,7 @@ function NavBar() {
             </div>
 
             <div className="icons">
-                <a href="#" className="profile-icon">V</a>
+                <a href="#" className="profile-icon-hover"><div className="profile-icon">V</div></a>
                 <a href="#" className="menu">💩</a>
             </div>
 
