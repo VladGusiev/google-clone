@@ -1,0 +1,40 @@
+.footr-1st-line, .footr-2nd-line {
+    border-bottom: 1px solid #3c4043;
+    font-size: 15px;
+    color: #9aa0a6;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #212325;
+}
+.footr-1st-line {
+    padding: 15px 30px;
+}
+.footr-2nd-line {
+    padding: 0 20px;
+}
+
+.footr-left-side, .footr-right-side {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    font-size: 14px;
+}
+
+.footr-link {
+    color: #999da2;
+    text-decoration: none;
+    display: block;
+    padding: 15px;
+    white-space: nowrap;
+}
+.footr-link:hover {
+    text-decoration: underline;
+}
+
+footer {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}

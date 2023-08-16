@@ -17,11 +17,22 @@
     border: 1px solid grey;
     border-radius: 50px;
 }
+button[type=reset] {
+    font-size: 1.2em;
+    color: grey;
+    padding-right: 15px;
+    background-color: transparent;
+    border: none;
+    border-right: 1px solid grey;
+    /*visibility: hidden;*/
+}
+
 
 .search-bar:focus-within, .search-bar:hover {
     background-color: #2f3237;
     border: none;
     box-shadow:4px 4px 10px rgba(0,0,0,0.06);
+
 }
 
 .icon, .right-icon {
@@ -51,11 +62,23 @@ input[type=text]:focus {
     outline: none;
 }
 
-button {
-    font-size: 1.2em;
-    color: grey;
-    padding-right: 15px;
-    background-color: transparent;
-    border: none;
-    border-right: 1px solid grey;
+
+
+.btns-undr-srch-br {
+    display: flex;
+    justify-content: center;
+
+}
+.bonus-btn {
+    height: 36px;
+
+    margin: 11px 4px;
+    padding: 0 16px;
+
+    background-color: #303134;
+    border: 1px solid #303134;
+    border-radius: 4px;
+    color: #e8eaed;
+
+    font-size: 14px;
 }

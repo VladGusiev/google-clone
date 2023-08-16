@@ -1,12 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&family=Open+Sans&display=swap');
 
+
+
 html {
   color: white;
 }
 
 body {
   margin: 0;
-  font-family: 'Open Sans', 'Montserrat', 'Lato', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: arial, 'Open Sans', 'Montserrat', 'Lato', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -17,3 +19,5 @@ code {
   font-family: 'Open Sans', 'Montserrat', 'Lato', source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+

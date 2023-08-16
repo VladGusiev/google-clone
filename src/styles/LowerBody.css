@@ -1,0 +1,13 @@
+p {
+    color: #bdc1c6;
+    text-align: center;
+    font-size: small;
+    line-height: 28px;
+}
+.lng-link {
+    color: #8ab4f8;
+    text-decoration: none;
+}
+.lng-link:visited {
+    color: #c58af9;
+}
